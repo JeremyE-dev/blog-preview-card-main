@@ -1,3 +1,4 @@
+
 /* resets */
 *,
 * ::before,
@@ -18,6 +19,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Figtree;
+    
+
 }
 
 .card-container {
@@ -42,11 +46,47 @@ body {
     width: 336px; /* Set the width of the element */
     height: 200px;
     margin: 10px auto;
-    border-radius: 10px;;
+    border-radius: 10px;
+    /* remove border when not needed */
+    border: 3px solid red;
 }
+
+.blog-category-btn {
+    border: 3px solid red;
+    border-radius: 4px;
+    background: #F4D04E;
+    /* font-family: Figtree; */
+    font-size:  14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    margin: 0 0 20px 20px;
+    padding: 5px
+    /* line-height: 150%; 21px */
+
+}
+
+.publish-date {
+    border: 3px solid red;
+    margin: 0 0 20px 20px;
+}
+
+.blog-title {
+    border: 3px solid red;
+    margin: 0 0 20px 20px;
+}
+
+.blog-description {
+    border: 3px solid red;
+    margin: 0 0 20px 20px;
+}
+
 
 .author-container {
     display: flex;
+    border: 3px solid red;
+    margin: 0 0 20px 20px;
+
 }
 
 .author-image {
