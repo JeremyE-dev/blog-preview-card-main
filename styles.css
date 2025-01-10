@@ -22,11 +22,13 @@ body {
 
 .card-container {
     border: 5px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 8px 8px 0px 0px #000;
+    width: 384px;
 }
 
 .card {
-
 }
 
 .blog-description {
@@ -37,8 +39,10 @@ body {
     background-image: url('/assets/images/illustration-article.svg');
     background-size: cover; /* Ensures the image covers the entire element */
     background-position: center; 
-    width: 275px; /* Set the width of the element */
-    height: 300px; /* Set the height of the element */
+    width: 336px; /* Set the width of the element */
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 10px;;
 }
 
 .author-container {
@@ -51,4 +55,5 @@ body {
     height: 32px; /* Set the height of the element */
     background-size: cover; /* Ensures the image covers the entire element */
     background-position: center; 
+    background-color: lightgray 50%;
 }
