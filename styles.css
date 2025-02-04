@@ -93,7 +93,7 @@ body {
 }
 
 .author-image {
-    background-image: url('/assets/images/image-avatar.webp');
+    background-image: url('assets/images/image-avatar.webp');
     width: 32px; /* Set the width of the element */
     height: 32px; /* Set the height of the element */
     background-size: cover; /* Ensures the image covers the entire element */
