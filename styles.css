@@ -37,7 +37,7 @@ body {
 }
 
 .image-container {
-    background-image: url('/assets/images/illustration-article.svg');
+    background-image: url('~/assets/images/illustration-article.svg');
     background-size: cover; /* Ensures the image covers the entire element */
     background-position: center; 
     width: 336px; /* Set the width of the element */
